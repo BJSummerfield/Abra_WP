@@ -1,0 +1,40 @@
+2019-11-12T21:15:46+00:00 CRITICAL Uncaught Error: Call to a member function get_status() on boolean in /var/www/html/wp-content/plugins/woo-advanced-shipment-tracking/includes/class-wc-advanced-shipment-tracking.php:734
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Advanced_Shipment_Tracking_Actions->email_display(false, true, false, Object(WC_Email_New_Order))
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-content/plugins/kadence-woocommerce-email-designer/templates/woo/emails/email-order-details.php(142): do_action('woocommerce_ema...', Object(WC_Order), true, false, Object(WC_Email_New_Order))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/html/w...')
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-emails.php(415): wc_get_template('emails/email-or...', Array)
+#6 /var/www/html/wp-includes/class-wp-hook.php(286): WC_ in /var/www/html/wp-content/plugins/woo-advanced-shipment-tracking/includes/class-wc-advanced-shipment-tracking.php on line 734
+
+2019-11-12T21:16:41+00:00 CRITICAL Uncaught Error: Call to a member function get_status() on boolean in /var/www/html/wp-content/plugins/woo-advanced-shipment-tracking/includes/class-wc-advanced-shipment-tracking.php:734
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Advanced_Shipment_Tracking_Actions->email_display(false, false, false, Object(WC_Email_Customer_Completed_Order))
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-content/plugins/kadence-woocommerce-email-designer/templates/woo/emails/email-order-details.php(142): do_action('woocommerce_ema...', Object(WC_Order), false, false, Object(WC_Email_Customer_Completed_Order))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/html/w...')
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-emails.php(415): wc_get_template('emails/email-or...', Array)
+#6 /var/www/html/wp-incl in /var/www/html/wp-content/plugins/woo-advanced-shipment-tracking/includes/class-wc-advanced-shipment-tracking.php on line 734
+
+2019-11-12T21:24:31+00:00 CRITICAL Uncaught Error: Call to a member function get_status() on boolean in /var/www/html/wp-content/plugins/woo-advanced-shipment-tracking/includes/class-wc-advanced-shipment-tracking.php:734
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Advanced_Shipment_Tracking_Actions->email_display(false, false, false, Object(WC_Email_Customer_Completed_Order))
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-content/plugins/kadence-woocommerce-email-designer/templates/woo/emails/email-order-details.php(142): do_action('woocommerce_ema...', Object(WC_Order), false, false, Object(WC_Email_Customer_Completed_Order))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/html/w...')
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-emails.php(415): wc_get_template('emails/email-or...', Array)
+#6 /var/www/html/wp-incl in /var/www/html/wp-content/plugins/woo-advanced-shipment-tracking/includes/class-wc-advanced-shipment-tracking.php on line 734
+
+2019-11-12T21:24:36+00:00 CRITICAL Uncaught Error: Call to a member function get_status() on boolean in /var/www/html/wp-content/plugins/woo-advanced-shipment-tracking/includes/class-wc-advanced-shipment-tracking.php:734
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Advanced_Shipment_Tracking_Actions->email_display(false, true, false, Object(WC_Email_New_Order))
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-content/plugins/kadence-woocommerce-email-designer/templates/woo/emails/email-order-details.php(142): do_action('woocommerce_ema...', Object(WC_Order), true, false, Object(WC_Email_New_Order))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/html/w...')
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-emails.php(415): wc_get_template('emails/email-or...', Array)
+#6 /var/www/html/wp-includes/class-wp-hook.php(286): WC_ in /var/www/html/wp-content/plugins/woo-advanced-shipment-tracking/includes/class-wc-advanced-shipment-tracking.php on line 734
+
